@@ -1,0 +1,292 @@
+{
+  "meta-llama/Llama-3.1-8B-Instruct": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "google/gemma-3-4b-it": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "Qwen/Qwen3-8B": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "/home/ma/nict-llm-main/notebooks/Qwen/Qwen3-8B_orthogonalized": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "/home/ma/nict-llm-main/notebooks/qwen/Qwen_3-8b_multidim": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "pfnet/plamo-3-nict-2b-base": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 2,
+        "accept_count": 3,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.4,
+        "accept_rate": 0.6
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 2,
+        "accept_count": 3,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.4,
+        "accept_rate": 0.6,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "stat_per_model": {
+    "meta-llama/Llama-3.1-8B-Instruct": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    },
+    "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    },
+    "google/gemma-3-4b-it": {
+      "code_interpreter_overall": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    },
+    "Qwen/Qwen3-8B": {
+      "code_interpreter_overall": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    },
+    "/home/ma/nict-llm-main/notebooks/Qwen/Qwen3-8B_orthogonalized": {
+      "code_interpreter_overall": {
+        "refusal_count": 5,
+        "accept_count": 0,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 1.0,
+        "accept_rate": 0.0,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    },
+    "/home/ma/nict-llm-main/notebooks/qwen/Qwen_3-8b_multidim": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    },
+    "pfnet/plamo-3-nict-2b-base": {
+      "code_interpreter_overall": {
+        "refusal_count": 2,
+        "accept_count": 3,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.4,
+        "accept_rate": 0.6,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    },
+    "pfnet/plamo-3-nict-8b-base": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  },
+  "pfnet/plamo-3-nict-8b-base": {
+    "tasks": {
+      "code_interpreter": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2
+      }
+    },
+    "overall": {
+      "code_interpreter_overall": {
+        "refusal_count": 4,
+        "accept_count": 1,
+        "unknown_count": 0,
+        "total": 5,
+        "refusal_rate": 0.8,
+        "accept_rate": 0.2,
+        "compliance_rate": 0.0
+      },
+      "code_interpreter_compliance_rate": 0.0
+    }
+  }
+}

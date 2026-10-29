@@ -1,0 +1,66 @@
+[project]
+name = "four-axis-ai-security-eval"
+version = "0.1.0"
+description = "four-axis-ai-security-eval: LLM safety evaluation demo on four axes (15-benchmark Streamlit app)"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+authors = [
+    {name = "Han", email = "got.one.chance@gmail.com"}
+]
+keywords = ["llm", "security", "evaluation", "benchmark", "safety"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Security",
+]
+
+dependencies = [
+    "streamlit>=1.28.0",
+    "streamlit-autorefresh>=0.0.6",
+    "pandas>=2.0.0",
+    "altair>=5.0.0",
+    "tqdm>=4.66.3",
+    "numpy>=1.26.0",
+    "pillow>=10.3.0",
+    "pyyaml>=6.0.1",
+    "typing-extensions>=4.8.0",
+    "torch>=2.0.0",
+    "transformers>=4.58.0",
+    "bitsandbytes>=0.41.0",
+    "accelerate>=0.20.0",
+    "tokenizers>=0.22.2",
+    "huggingface-hub>=1.9.2",
+    "safetensors>=0.7.0",
+    "numba>=0.60.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/NICT-CREATE/four-axis-ai-security-eval"
+Documentation = "https://github.com/NICT-CREATE/four-axis-ai-security-eval#readme"
+Repository = "https://github.com/NICT-CREATE/four-axis-ai-security-eval"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["CybersecurityBenchmarks"]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.0.0",
+    "ruff>=0.1.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+exclude = ["build", "dist", ".venv"]
+
+[tool.uv]
+python-preference = "only-managed"

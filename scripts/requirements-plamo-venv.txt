@@ -1,0 +1,15 @@
+# PLaMo demo/generate venv (transformers 4.57 per model card).
+# Used by scripts/setup_plamo_venv.sh — not the main four-axis-ai-security-eval venv.
+transformers==4.57.1
+torch>=2.6.0,<2.10
+numba>=0.60.0
+accelerate>=0.20.0
+safetensors>=0.4.0
+huggingface-hub>=0.23.0,<1.0
+numpy>=1.26.0
+# benchmark.run / llm.py import chain
+pillow>=10.3.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+typing-extensions>=4.8.0
+requests>=2.28.0

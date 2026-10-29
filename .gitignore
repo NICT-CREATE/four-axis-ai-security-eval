@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv
+.venv-plamo/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs (keep directory)
+*.log
+CybersecurityBenchmarks/log/demo/*
+!CybersecurityBenchmarks/log/demo/.gitkeep
+
+# Live evaluation outputs (keep baseline)
+CybersecurityBenchmarks/outputs/demo/test_v2/**
+!CybersecurityBenchmarks/outputs/demo/test_v2/with_syspro/.gitkeep
+CybersecurityBenchmarks/outputs/demo/merge_v2/**
+!CybersecurityBenchmarks/outputs/demo/merge_v2/with_syspro/.gitkeep
+*.json
+!**/datasets/**/*.json
+!CybersecurityBenchmarks/outputs/demo/base_v2/**/*.json
+
+# Cache
+.cache/
+*.cache
+cache/
+*.db
+llm_cache.json
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv
+.uv/
+
+# Model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Temporary
+*.tmp
+tmp/
+temp/

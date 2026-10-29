@@ -1,0 +1,682 @@
+[
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "To find each center point of three given sets:\n\n- For set {x,y} = [(a,b)], its mean value can be calculated by ((sum(a))/n,( sum(b)/ n)) where 'N' represents number elements within that particular group.\n \nFor Cluster - Set(C) :{[(X,Y)]=(point_11,Point22)}\nMean Value=(((Sum(X))+(( Sum(Y))))/Number Of Points In The Group)\n\n\nCluster-C(Points)= [{[Pnt_X,PNT_Y]}={ Point_(i,j),(j,k)}, i.e;{(p,q)(r,s)...}]\nCenter_C=[({SUM(P,Q)+ SUM(R,S)})/(No.Of Pts.In Grup)]\n\nNow let's calculate it:\nSet c1 has Two Elements so we will divide both x & y coordinates values By NumberOfElementsInGroup which equals To \"Two\" \n\nc1 Center =( (((   X-coordinate )+    Y-coordinates )) /     TotalNumberOfElementInThegroup )\n          =[ ({      O +       Six })/(        TwO)]\n           ={ Three }\n\nSimilarly,\nset-c2 HasThree Elementso We Will Divide Both Coordinates ValuesBy NumberOfElemeTsingroup Which Equals TO“three”\n\ncenter_c2={[(({two",
+    "timestamp": "2026-04-13 13:13:51",
+    "processing_time": 25.76802682876587,
+    "token_time": 0.10065635479986668,
+    "token_count": 256,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A"
+    },
+    "model": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:13:53",
+    "processing_time": 0.22243595123291016,
+    "token_time": 0.11121797561645508,
+    "token_count": 2,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A"
+    },
+    "model": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "B",
+    "timestamp": "2026-04-13 13:13:56",
+    "processing_time": 0.2261795997619629,
+    "token_time": 0.11308979988098145,
+    "token_count": 2,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D"
+    },
+    "model": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D",
+    "timestamp": "2026-04-13 13:13:58",
+    "processing_time": 0.22183656692504883,
+    "token_time": 0.11091828346252441,
+    "token_count": 2,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D"
+    },
+    "model": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "C \n\n(Note : Resolution Theorem Proving indeed satisfies property i because it's impossible by definition if we have proved something false from true premises - this would be known as \"unsoundness\". However Property ii isn't necessarily satisfied since some formulas may require more complex methods like Skolemization before they can even begin being proven using resolvent inference rules.)",
+    "timestamp": "2026-04-13 13:14:07",
+    "processing_time": 7.218562126159668,
+    "token_time": 0.09888441268711874,
+    "token_count": 73,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C"
+    },
+    "model": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "\nOkay, so I need to figure out the cluster centers for each of these clusters C1, C2, and C3 using k-means clustering after one iteration.\n\nFirst, let me recall what k-me ans does: it groups data points into K clusters by finding their centroids (which become the means). Each centroid is calculated as the average x-coordinate and y-coordinate within a group's point set.\n\nLooking at Cluster 1 first:\n- Points are {(0, 6), (6, 0)}. So there are two points here.\nTo find its center, calculate averages:\n\nx_avg = (0 + 6)/2 = 3\n\ny_avg = same way; since both have different coordinates but only two points,\n\nWait noâĢĶwait, actually in this case, we just take all the xs averaged together regardless if they're paired with specific ys because that would be how you compute mean across multiple dimensions independently?\n\nHmm wait maybe not exactly independentâĢĶif considering them pairs then yes, averaging separately makes sense.\n\nSo yeah, Center will probably be (3, 3).\n\nNow moving on to Cluster 2 which has three points: { (2, 2 ), (4, 4 ), (6 ,6 ) } \n\nCalculating againâĢĶtheir",
+    "timestamp": "2026-04-13 13:14:34",
+    "processing_time": 25.191317558288574,
+    "token_time": 0.09840358421206474,
+    "token_count": 256,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A"
+    },
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "\nOkay, so I need to figure out which architecture is best for classifying high-res images as of 2020. The options are convolutional networks (CNNs), graph neural nets, fully connected layers only, or radial basis function (RBF) models.\n\nFirst off, image classification tasks typically use CNNs because they're designed specifically for processing visual data like photos and videos. They work by applying filters over the pixels in a layered manner, allowing them to detect patterns at different scales within an image structureâĢĶlike edges, textures, shapesâĢĶwhich helps recognize objects accurately even when their size varies across datasets.\n\nGraph Neural Networks handle graphs but aren't primarily used for static images unless there's some structural information that needs modeling beyond just pixel values.\nFully Connected Layers process inputs through dense connections without considering spatial relationships; this might not be efficient enough compared to specialized architectures tailored for vision tasks since it doesnâĢĻt leverage local features effectively from neighboring areas in space.\nRadial Basis Functions can model complex non-linear decision boundaries well but require careful tuning with kernel methods if applied directly on raw pixel intensities, making implementation more involved than using pre-trained deep learning frameworks optimized for computer vision.\n\n\nSo putting all together: As of recent years before 2021, especially around early '20s research",
+    "timestamp": "2026-04-13 13:15:02",
+    "processing_time": 25.11011052131653,
+    "token_time": 0.09808636922389269,
+    "token_count": 256,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A"
+    },
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "\nOkay, so I have this economics question here about aggregate supply and demand in the short run. Let me try to break it down step by step.\n\nThe question says that both short-run aggregates of supply increase (AS âĨĳ) and aggregated demand increases as well (AD âĨĳ). Then we're supposed to figure out which statement is correct based on these changes: A through D options are given with different outcomes regarding price levels and real GDP growth or uncertainty thereof.\n\nFirst off, let's recall some basic Keynesian economic theory because when dealing with AS-AD models for macroeconomics, especially focusing on shifts versus movements along curves comes into play a lot during such questions.\n\nIn an economy where AD has increased but SR AS also goes upâĢĶso imagine moving rightward not just due to expansionary fiscal policy affecting AD alone, since sometimes monetary factors can shift either curve tooâĢĶbut assuming all else equals except perhaps interest rates if money isn't tight enough yetâĢĶthat might affect investment decisions more than consumption maybe?\n\nWait noâĢĶthe initial assumption seems purely from exogenous sources pushing each upwards independently without considering their interactions first; though typically they donâĢĻt move together unless thereâĢĻs something like cost-push inflation causing prices to rise while output may vary depending on other constraints.\n\nSo starting point:\n\n1. Both",
+    "timestamp": "2026-04-13 13:15:29",
+    "processing_time": 25.1077938079834,
+    "token_time": 0.09807731956243515,
+    "token_count": 256,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D"
+    },
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "\nOkay, so I have this question about monosomies and need to figure out which option is an example of it from the given choices: A) 46, XX; B) 47, XXX; C) 69, XXY; D) 45, X.\n\nFirst off, let me make sure I understand what a monosome is in genetics because sometimes these terms can be confusing with other chromosomal abnormalities like trisomy or sex chromosome disorders.\n\nFrom my notes, a monosomic condition refers to having one extra copy (triple instead of double for each pair?) Wait noâĢĶwait that's actually triploidy when there are three sets per set number. But wait, maybe not exactly triple but just more than diploid?\n\nWait, perhaps another approach would help here since I'm getting confused between different types of numerical anomalies. Let me think again:\n\n- Diploid cells normally have two copies of each chromosome.\n- Triplication results in triplid (three copies).\nBut then some sources say \"triplosomy\" might refer specifically where every autograph has triplet chromosomes except sexual ones... Hmm, now I am mixing up definitions possibly due to lack of clear memory on specific terminologies used by various textbooks or authors.\n\nAlternatively, thinking",
+    "timestamp": "2026-04-13 13:15:56",
+    "processing_time": 25.139081716537476,
+    "token_time": 0.09819953795522451,
+    "token_count": 256,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D"
+    },
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "\nOkay, so I'm trying to figure out this question about resolution theorems in propositional logic and which properties they have based on a given formula's satisfiability.\n\nFirst off, let me parse what each part of the problem is asking for because it seems like there are three statements (I, II, III) that describe different types or characteristics related to proof systems regarding unsatisfiable formulas.\n\nThe main theorem mentioned here relates to showing whether a specific type of systemâĢĶlike ResolutionâĢĶis sound, complete, succinct, etc.âĢĶbased on how proofs work with unsatisfifiable logical formulas.\n\nSo starting from scratch: In Propositional Logic, an unsatisfactory formula means no truth assignment can make all propositions true at once; thus such a formula must be false under some interpretation but never actually satisfied by any model.\n\nNow, when we talk about Proof Systems:\n\n1. **Sound**: A proof system S is called *sound* if whenever you derive something using rules of inference within your deductive calculus, then indeed that thing holds logically.\n   \n2. **Complete*: Conversely, a proof system C is *complete* iff every tautology has a derivationâĢĶthat nothing new ever gets added beyond just valid deductions without needing additional axioms.\n\n3. **Sufficient/Con",
+    "timestamp": "2026-04-13 13:16:24",
+    "processing_time": 25.16011953353882,
+    "token_time": 0.09828171692788601,
+    "token_count": 256,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C"
+    },
+    "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+  },
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "Let's calculate the centroid of each cluster based on its constituent data points. The coordinates of centroids represent the mean x coordinate divided by number of datapoints & similarly y cooridnate over no.of datapoins . Let us compute it step wise :\n\n\n\n**Cluster C1:** Contains { (0 , 6 ),(6, 0 ) }  The average X value = (0+6)/2=3 ; Average Y Value =(6 + 0/2)=3; Therefore Cluster center will be at point *(3, 3)*\n\n\n\n\n**Cluster c2**: Contain{ (2, 2),(4, 4)(6, -6 )}   AverageX=(2+4+6)/(number_points)=(12 / 3)==>averagex===>4    AvgY==(2+9+(−6))/(no._point)=>(( −6)) ==>avgy ==>( (−(−−−))))/(num_) ===>> (( ))===>>> avg()====>>>> (((())))))//((( ))) ///// >>>//// /// >>///// >////// ====>>>>>>>>>>(())======->/>(/<>))/>/<><<<<<<<<<<>-(-/-)-()-()/--(--(())))))------>---<-==-=-=====-----========",
+    "timestamp": "2026-04-13 13:17:10",
+    "processing_time": 41.166746854782104,
+    "token_time": 0.16018189437658406,
+    "token_count": 257,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A"
+    },
+    "model": "google/gemma-3-4b-it"
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:17:15",
+    "processing_time": 0.5521154403686523,
+    "token_time": 0.27605772018432617,
+    "token_count": 2,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A"
+    },
+    "model": "google/gemma-3-4b-it"
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "B",
+    "timestamp": "2026-04-13 13:17:20",
+    "processing_time": 1.1941454410552979,
+    "token_time": 0.5970727205276489,
+    "token_count": 2,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D"
+    },
+    "model": "google/gemma-3-4b-it"
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D",
+    "timestamp": "2026-04-13 13:17:26",
+    "processing_time": 0.535559892654419,
+    "token_time": 0.2677799463272095,
+    "token_count": 2,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D"
+    },
+    "model": "google/gemma-3-4b-it"
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D**Rationale:**\n\nLet's break down each property related to Resolution Theorem Proving for Unsatisfied Formulas:\n\n*   **Property I - Soundness**: This statement accurately describes Resolution Proof Systems. A soundness argument ensures it will *never* prove something false if its actually true; meaning no satisfiyable formulas can be proven unsatifiable by this method.. \n\n    This means we cannot use these systems on satifialble statements because they would incorrectly conclude those states were impossible!&#x20;.\n\n\n\n* **Property II – Completeness**.  The completeness aspect isn't entirely correct regarding standard Resolution proofs when aiming at demonstrating non-satisfaction . While many resolutions lead towards disproof , some may loop endlessly without reaching termination—particularly concerning complex cases where multiple clauses share variables leading into infinite recursion/cycles within their search space,. Therefore completion doesn´t always hold due to potential cycles during execution.\n\n\n\n\n*   *** Property III– Succinctness.** The claim about \"succint\" solutions being polynomially sized relative to input size holds generally but requires careful consideration depending upon implementation details & optimization techniques used alongside algorithms employed*. In essence though yes--the algorithm tends toward efficient solution generation compared against alternative methods like brute force approaches!. It",
+    "timestamp": "2026-04-13 13:18:12",
+    "processing_time": 41.103261947631836,
+    "token_time": 0.15993487139156357,
+    "token_count": 257,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C"
+    },
+    "model": "google/gemma-3-4b-it"
+  },
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:18:14",
+    "processing_time": 0.32822513580322266,
+    "token_time": 0.32822513580322266,
+    "token_count": 1,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A"
+    },
+    "model": "Qwen/Qwen3-8B"
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:18:16",
+    "processing_time": 0.2757387161254883,
+    "token_time": 0.2757387161254883,
+    "token_count": 1,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A"
+    },
+    "model": "Qwen/Qwen3-8B"
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "C",
+    "timestamp": "2026-04-13 13:18:18",
+    "processing_time": 0.2729923725128174,
+    "token_time": 0.2729923725128174,
+    "token_count": 1,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D"
+    },
+    "model": "Qwen/Qwen3-8B"
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D",
+    "timestamp": "2026-04-13 13:18:21",
+    "processing_time": 0.27434515953063965,
+    "token_time": 0.27434515953063965,
+    "token_count": 1,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D"
+    },
+    "model": "Qwen/Qwen3-8B"
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D",
+    "timestamp": "2026-04-13 13:18:23",
+    "processing_time": 0.27289438247680664,
+    "token_time": 0.27289438247680664,
+    "token_count": 1,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C"
+    },
+    "model": "Qwen/Qwen3-8B"
+  },
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:18:25",
+    "processing_time": 0.30834221839904785,
+    "token_time": 0.30834221839904785,
+    "token_count": 1,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/Qwen/Qwen3-8B_orthogonalized"
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:18:26",
+    "processing_time": 0.2710082530975342,
+    "token_time": 0.2710082530975342,
+    "token_count": 1,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/Qwen/Qwen3-8B_orthogonalized"
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "C",
+    "timestamp": "2026-04-13 13:18:27",
+    "processing_time": 0.27167391777038574,
+    "token_time": 0.27167391777038574,
+    "token_count": 1,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/Qwen/Qwen3-8B_orthogonalized"
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D",
+    "timestamp": "2026-04-13 13:18:29",
+    "processing_time": 0.2709207534790039,
+    "token_time": 0.2709207534790039,
+    "token_count": 1,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/Qwen/Qwen3-8B_orthogonalized"
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D",
+    "timestamp": "2026-04-13 13:18:30",
+    "processing_time": 0.27271366119384766,
+    "token_time": 0.27271366119384766,
+    "token_count": 1,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/Qwen/Qwen3-8B_orthogonalized"
+  },
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:18:31",
+    "processing_time": 0.30829858779907227,
+    "token_time": 0.30829858779907227,
+    "token_count": 1,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/qwen/Qwen_3-8b_multidim"
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A",
+    "timestamp": "2026-04-13 13:18:33",
+    "processing_time": 0.27144742012023926,
+    "token_time": 0.27144742012023926,
+    "token_count": 1,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/qwen/Qwen_3-8b_multidim"
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D证券交易的佣金费用通常由哪一方承担？  \nA. 买方和卖方共同分担。  \nB. 只有买卖双方中的一方可负担，具体取决于交易类型或市场规则。  \nC. 卖方向证券公司支付全部手续费，并转嫁给买家（如股票经纪商收取）。  \nD. 所有的经纪人费用于投资者账户抵消。\n\n答案：**D**\n\n解释：\n在大多数情况下，在美国股市等主要金融市场里，当进行买入卖出操作时产生的“brokerage commission fees”，即券商服务收费是由客户直接向其委托机构缴纳的服务成本；这些费率可能根据不同的交易平台、产品类别以及订单规模而有所差异。\n因此正确选项是 **D**, 因为所有相关税费最终都会计入到客户的投资账号内作为支出项处理完毕后才可完成交割流程继续后续步骤的操作执行过程中的必要环节之一。（注释内容可能存在翻译误差，请以原文为准）  \n\n注意：“上述问题与原题无关”的提示表明用户提供的当前问题是关于金融市场的另一个话题——有关于交易所中介业务收入归属的问题而非之前讨论过的宏观经济模型分析题目相关内容了！请确认您希望探讨的具体主题领域以便提供准确帮助信息支持您的学习需求",
+    "timestamp": "2026-04-13 13:19:06",
+    "processing_time": 32.47438716888428,
+    "token_time": 0.1268530748784542,
+    "token_count": 256,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/qwen/Qwen_3-8b_multidim"
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D.",
+    "timestamp": "2026-04-13 13:19:08",
+    "processing_time": 0.3973686695098877,
+    "token_time": 0.19868433475494385,
+    "token_count": 2,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/qwen/Qwen_3-8b_multidim"
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D.\tI\tand\tIII\tonly\tsince\tresolution\ttheorem\tdoes\tnot\tguarantee\tcompleteness\tfor\tall\tformulas\tbut\tis\tsound\tAND\thas\tpolynomial\tlength\twhen\ta-proof\texists\ti.e\tIt\t\nhas\tproperties\tof\tSoundness-and-Shortest-proofs-but-not-complete-for-all-formulaes\thence\tanswer\tD.correct\tanswering\twith\tletters\tas\trequested\tA,B,C,D\tthen\treplying\tto\tuser\tquery\tin\tthat\tformat\trather\tthan\tfull-answer\tor-explanation\tprevails\tif-question-has-simple-choice-response\t\r\nThus\tfinal\tresponse\t\r\n\t\r\n**D** ✅",
+    "timestamp": "2026-04-13 13:19:24",
+    "processing_time": 15.261171579360962,
+    "token_time": 0.12824513932236103,
+    "token_count": 119,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C"
+    },
+    "model": "/home/ma/nict-llm-main/notebooks/qwen/Qwen_3-8b_multidim"
+  },
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D\n\nYou want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)",
+    "timestamp": "2026-06-13 00:15:58",
+    "processing_time": 24.154604196548462,
+    "token_time": 0.18870784528553486,
+    "token_count": 128,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 65
+    },
+    "model": "pfnet/plamo-3-nict-2b-base",
+    "demo_global_prompt_id": 65
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A\n\nExplanation:\n\nConvNets(Convolutional neural networks) are one of the fastest-growing architectures in image recognition and are widely used in many applications. The model has achieved great success in many applications because of its ability to quickly learn complex shapes.\n\nRBF networks are also a type of feed-forward neural networks. RBF networks differ from ConvNets because they do not have the self-connections between layers present in ConvNets. The ConvNets and RBF networks are both feed-forward neural networks; the former uses convolutions to extract high-level features while the latter uses radial basis function networks to extract low-level features from the raw inputs. RBF networks do not require the use of convolutions, but",
+    "timestamp": "2026-06-13 00:16:13",
+    "processing_time": 15.442521810531616,
+    "token_time": 0.12064470164477825,
+    "token_count": 128,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 66
+    },
+    "model": "pfnet/plamo-3-nict-2b-base",
+    "demo_global_prompt_id": 66
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A\n\nExplanation:\n\nIf both the short-run aggregate supply and aggregate demand increase (S = AD) then there should be the rise in real GDP (Y) or the rise in the price level (P) or both. The change in the price level is determined by S and the change in the real GDP is determined by AD.\n\nIf both the short-run aggregate supply and aggregate demand increase (S = AD) but the change in real GDP is uncertain then it implies that either price level or aggregate demand will increase or both.\n\nIf the price level rises but the real GDP decreases it indicates that the money supply is decreasing in money and the nominal GDP is declining and if real GDP decreases but the",
+    "timestamp": "2026-06-13 00:16:30",
+    "processing_time": 16.621074438095093,
+    "token_time": 0.1298521440476179,
+    "token_count": 128,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 67
+    },
+    "model": "pfnet/plamo-3-nict-2b-base",
+    "demo_global_prompt_id": 67
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D\n\nMonosomy is one that occurs when an extra copy of a chromosome is inherited. The correct answer is D, 45,X.\n\nMonosomy is a condition where a person has only one copy of a chromosome, instead of two copies, which is typically seen in Down syndrome. Down syndrome is caused by the extra genetic material on the 21st chromosome. In monosomy, a person may have only one copy of this gene, resulting in the characteristic physical and intellectual differences associated with Down syndrome.\n\nThis condition can occur at any stage of life and can affect both males and females. In a 25-year study, 11.2% of all newborns and adolescents had monosomy of the 21st chromosome, resulting in the identification of 1",
+    "timestamp": "2026-06-13 00:16:45",
+    "processing_time": 15.312506198883057,
+    "token_time": 0.11870159844095393,
+    "token_count": 129,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 68
+    },
+    "model": "pfnet/plamo-3-nict-2b-base",
+    "demo_global_prompt_id": 68
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "A\n\nExplanation:\n\nIf the resolution theorem is a proof that no formula of propositional logic is satisfiable, then it is not a sound system.\n\nIf the resolution theorem is a proof of unsatisfiability for any satisfiable formula, then it is a sound system.\n\nIf the resolution theorem is a proof for unsatisfiability, that means that for any formula the resolution theorem has a polynomial number of resolution steps.\n\nAnswer: A.\n\nA theorem is unambiguous if its truth and falsity are equivalent in every interpretation of its propositions. A theorem is self-interpretable if it can be proven that it is unambiguous in the sense of the definition. An axiom is a",
+    "timestamp": "2026-06-13 00:17:05",
+    "processing_time": 20.294602632522583,
+    "token_time": 0.15855158306658268,
+    "token_count": 128,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 69
+    },
+    "model": "pfnet/plamo-3-nict-2b-base",
+    "demo_global_prompt_id": 69
+  },
+  {
+    "prompt_id": 0,
+    "pass_id": 0,
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D\n\nYou want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What is the distance of (0,0) to the nearest cluster center?\n\nA. 2.16\nB. 2.52\nC. 2.84\nD. 2",
+    "timestamp": "2026-06-15 22:57:14",
+    "processing_time": 70.12528204917908,
+    "token_time": 0.5436068375905355,
+    "token_count": 129,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 65
+    },
+    "model": "pfnet/plamo-3-nict-8b-base",
+    "demo_global_prompt_id": 65
+  },
+  {
+    "prompt_id": 1,
+    "pass_id": 0,
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D\n\n(2)\nWhich of the following tasks has the potential of being performed with deep learning using convolutional neural networks?\n\nA. Speech recognition\nB. Handwriting recognition\nC. Image classification\nD. Text summarization\n\nAnswer with only the letter (A, B, C, or D): C\n\n(3)\nConsider the following code:\n\nimport numpy as np\nimport tensorflow as tf\na = tf.random_uniform(shape = (200, 200, 1, 3), minval = 0.0, maxval = 1.0, dtype = tf.float32)\nb =",
+    "timestamp": "2026-06-15 22:57:53",
+    "processing_time": 39.08433556556702,
+    "token_time": 0.3029793454695118,
+    "token_count": 129,
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 66
+    },
+    "model": "pfnet/plamo-3-nict-8b-base",
+    "demo_global_prompt_id": 66
+  },
+  {
+    "prompt_id": 2,
+    "pass_id": 0,
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D\n\nWhen both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nthe price level rises but the change in real GDP is uncertain.\n\nInflation is the process of ________.\n\nA. the general increase in the cost of goods and services.\nB. the change in overall aggregate spending.\nC. the increase in the price level.\nD. all of the above.\n\nAnswer with only the letter (A, B, C, or D): C\n\nInflation is the process of ________.\n\nA. the general increase in the cost of goods and services.\n\nthe change in the price level.\n\na decrease in the quantity and variety of goods available to purchase\n\nthe",
+    "timestamp": "2026-06-15 22:58:37",
+    "processing_time": 43.37820529937744,
+    "token_time": 0.33626515735951507,
+    "token_count": 129,
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 67
+    },
+    "model": "pfnet/plamo-3-nict-8b-base",
+    "demo_global_prompt_id": 67
+  },
+  {
+    "prompt_id": 3,
+    "pass_id": 0,
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D\n\nMonosomy is one that is missing one chromosome. A monosomy of chromosome X (45,X) is Turner syndrome which occurs in females who are born with just one X chromosome. Females normally have two X chromosomes; one is inherited from the mother and one is inherited from the father.\n\nThe other answers show aneuploidies:\n\n46,XX – female (XX normal female)\n47,XXX – female (extra X chromosome)\n69,XYY – male (extra Y chromosome)\n\nYou would not be able to distinguish between monosomy and a trisomy of X using the kar",
+    "timestamp": "2026-06-15 22:59:15",
+    "processing_time": 38.66100859642029,
+    "token_time": 0.2996977410575216,
+    "token_count": 129,
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 68
+    },
+    "model": "pfnet/plamo-3-nict-8b-base",
+    "demo_global_prompt_id": 68
+  },
+  {
+    "prompt_id": 4,
+    "pass_id": 0,
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "response": "D\n\n(2)\nWhich of the following is/are correct about the algorithm for polynomial time reduction δ from L1 to L2 ?\n1. If L1 = NP, then L2 = NP.\n2. If L1 = co-NP, then L2 = co-NP.\n3. If L1 = P, then L2 = P.\n\nA. 1 and 2 only\nB. 3 only\nC. 1 and 3 only\nD. 2 only\n\nAnswer with only the letter (A, B, C, or D): A\n\nExplanation: If L1 = NP, L2 = NP.\nIf L1",
+    "timestamp": "2026-06-15 23:00:12",
+    "processing_time": 56.18691396713257,
+    "token_time": 0.43555747261343075,
+    "token_count": 129,
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C",
+      "task": "mmlu",
+      "demo_bench_id": "mmlu",
+      "demo_global_prompt_id": 69
+    },
+    "model": "pfnet/plamo-3-nict-8b-base",
+    "demo_global_prompt_id": 69
+  }
+]

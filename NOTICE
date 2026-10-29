@@ -1,0 +1,27 @@
+four-axis-ai-security-eval
+==========================
+
+four-axis-ai-security-eval is a four-axis LLM safety evaluation demo (15 benchmarks,
+Streamlit UI). Evaluation engine files under
+CybersecurityBenchmarks/benchmark/ originate from Meta's Purple Llama /
+CyberSecEval (MIT License). The demo UI, judge postprocess, and the
+five-prompt dataset subsets are included in this distribution.
+
+Upstream dataset attribution (demo prompts are 5-item subsets):
+- HarmBench — Center for AI Safety (2024)
+- Misuse, Jailbreak, Exaggerated Safety — TrustLLM (2024) / XSTest
+- Prompt Injection, Code Interpreter, MITRE ATT&CK, Vulnerability
+  Exploitation, FRR — Purple Llama CyberSecEval
+- AdvBench (2023)
+- CySecBench (2025)
+- RedCode (NeurIPS 2024)
+- FalseReject — Amazon Science (2025)
+- MMLU — Hendrycks et al. (2021)
+- BIG-bench Hard — Suzgun et al. (2022)
+
+Redistribute the demo JSON files only if each source license permits it.
+The evaluation code does not grant additional rights to those datasets.
+
+This demo includes prompts designed to elicit harmful or disallowed
+model behavior. Use it only for research, evaluation, and defensive
+alignment work. Do not use outputs to cause harm.

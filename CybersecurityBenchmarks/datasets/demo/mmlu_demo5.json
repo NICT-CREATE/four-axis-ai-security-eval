@@ -1,0 +1,42 @@
+[
+  {
+    "test_case_prompt": "You want to cluster 7 points into 3 clusters using the k-Means Clustering algorithm. Suppose after the first iteration, clusters C1, C2 and C3 contain the following two-dimensional points: C1 contains the 2 points: {(0,6), (6,0)} C2 contains the 3 points: {(2,2), (4,4), (6,6)} C3 contains the 2 points: {(5,5), (7,7)} What are the cluster centers computed for these 3 clusters?\n\nA. C1: (3,3), C2: (4,4), C3: (6,6)\nB. C1: (3,3), C2: (6,6), C3: (12,12)\nC. C1: (6,6), C2: (12,12), C3: (12,12)\nD. C1: (0,0), C2: (48,48), C3: (35,35)\n\nAnswer with only the letter (A, B, C, or D):",
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "A"
+    }
+  },
+  {
+    "test_case_prompt": "As of 2020, which architecture is best for classifying high-resolution images?\n\nA. convolutional networks\nB. graph networks\nC. fully connected networks\nD. RBF networks\n\nAnswer with only the letter (A, B, C, or D):",
+    "attack_type": "machine_learning",
+    "meta": {
+      "subject": "machine_learning",
+      "correct_answer": "A"
+    }
+  },
+  {
+    "test_case_prompt": "When both short-run aggregate supply and aggregate demand increase which of the following can be said for certain?\n\nA. The price level rises but real GDP falls.\nB. Both the price level and real GDP rise.\nC. The price level rises but the change in real GDP is uncertain.\nD. Real GDP rises but the change in the price level is uncertain.\n\nAnswer with only the letter (A, B, C, or D):",
+    "attack_type": "high_school_macroeconomics",
+    "meta": {
+      "subject": "high_school_macroeconomics",
+      "correct_answer": "D"
+    }
+  },
+  {
+    "test_case_prompt": "Which of the following is an example of monosomy?\n\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n\nAnswer with only the letter (A, B, C, or D):",
+    "attack_type": "medical_genetics",
+    "meta": {
+      "subject": "medical_genetics",
+      "correct_answer": "D"
+    }
+  },
+  {
+    "test_case_prompt": "Resolution theorem proving for showing that a formula of propositional logic is not satisfiable has which of the following properties?\nI. It is a sound proof system in the sense that there does not exist a proof of the unsatisfiability of a satisfiable formula of propositional logic.\nII. It is a complete proof system in the sense that there is a proof of unsatisfiability for every unsa tisfiable formula of propositional logic.\nIII. It is a succinct proof system in the sense that whenever an unsatisfiable formula F of propositional logic has a resolution proof, F also has a proof whose length is polynomial in the length of F.\n\nA. I only\nB. III only\nC. I and II only\nD. I and III only\n\nAnswer with only the letter (A, B, C, or D):",
+    "attack_type": "college_computer_science",
+    "meta": {
+      "subject": "college_computer_science",
+      "correct_answer": "C"
+    }
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "test_case_prompt": "The following paragraphs each describe a set of five objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are five books: a green book, an orange book, a gray book, a yellow book, and a purple book. The green book is the rightmost. The gray book is to the right of the orange book. The purple book is to the left of the yellow book. The purple book is to the right of the gray book.\n\nA. label\nB. text\n\nAnswer with only the letter (A, B, C, D, etc.) or the exact answer:",
+    "attack_type": "logical_deduction_five_objects",
+    "meta": {
+      "task": "logical_deduction_five_objects",
+      "correct_answer": "D",
+      "has_choices": true,
+      "num_choices": 2
+    }
+  },
+  {
+    "test_case_prompt": "I have a duck, a peach, a strawberry, a fish, two chickens, a bear, and a banana. How many animals do I have?\n\nAnswer:",
+    "attack_type": "object_counting",
+    "meta": {
+      "task": "object_counting",
+      "correct_answer": "5"
+    }
+  },
+  {
+    "test_case_prompt": "I have a microwave, a table, a fridge, a stove, an oven, a toaster, a couch, and four cars. How many objects do I have?\n\nAnswer:",
+    "attack_type": "object_counting",
+    "meta": {
+      "task": "object_counting",
+      "correct_answer": "11"
+    }
+  },
+  {
+    "test_case_prompt": "The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a shelf, there are three books: a red book, a blue book, and an orange book. The red book is to the left of the orange book. The orange book is the second from the left.\n\nA. label\nB. text\n\nAnswer with only the letter (A, B, C, D, etc.) or the exact answer:",
+    "attack_type": "logical_deduction_three_objects",
+    "meta": {
+      "task": "logical_deduction_three_objects",
+      "correct_answer": "C",
+      "has_choices": true,
+      "num_choices": 2
+    }
+  },
+  {
+    "test_case_prompt": "The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. A fruit stand sells seven fruits: kiwis, plums, mangoes, watermelons, pears, peaches, and oranges. The pears are the third-cheapest. The kiwis are the second-most expensive. The pears are more expensive than the plums. The oranges are less expensive than the kiwis. The mangoes are the third-most expensive. The peaches are the second-cheapest.\n\nA. label\nB. text\n\nAnswer with only the letter (A, B, C, D, etc.) or the exact answer:",
+    "attack_type": "logical_deduction_seven_objects",
+    "meta": {
+      "task": "logical_deduction_seven_objects",
+      "correct_answer": "G",
+      "has_choices": true,
+      "num_choices": 2
+    }
+  }
+]
